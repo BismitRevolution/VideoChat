@@ -1,0 +1,96 @@
+:root {
+    --color-primary: #9E87CE;
+    --color-light: #F2F2F2;
+    --color-dark: #333333;
+}
+
+@font-face {
+    font-family: "Font-Regular";
+    src: url('/fonts/Font-Regular.ttf');
+}
+
+.bg-primary {
+    background: var(--color-primary) !important;
+}
+
+.bg-light {
+    background: var(--color-light) !important;
+}
+
+.bg-dark {
+    background: var(--color-dark) !important;
+}
+
+.bg-white {
+    background: white !important;
+}
+
+.bg-transparent {
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+.primary {
+    color: var(--color-primary) !important;
+}
+
+.light {
+    color: var(--color-light) !important;
+}
+
+.dark {
+    color: var(--color-dark) !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.transparent {
+    color: rgba(255, 255, 255, 0) !important;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.border {
+    /*border: 0.5px solid var(--color-default) !important;*/
+    box-shadow: 0 0 9px #999;
+}
+
+.shadow-top {
+    box-shadow: 0 -5px 5px -5px #333;
+}
+
+.shadow-right {
+    box-shadow: 5px 0 5px -5px #333;
+}
+
+.shadow-bottom {
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.shadow-left {
+    box-shadow: -5px 0 5px -5px #333;
+}
+
+.shadow-all {
+    box-shadow: 0 0 5px #333;
+}
+
+.hidden {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+body {
+    font-size: 1.3rem;
+}
