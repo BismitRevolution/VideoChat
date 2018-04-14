@@ -18,7 +18,7 @@
         <!-- Foundation ZURB -->
         <!-- <link rel="stylesheet" href="{{ asset('css/vendor/foundation.min.css') }}"> -->
         <!-- Lightbox -->
-        <!-- <link rel="stylesheet" href="{{ asset('css/vendor/lightbox.min.css') }}"> -->
+        <!-- <link rel="stylesheet" href="{{ asset('css/vendor/lightbox.css') }}"> -->
         <!-- Basic Style -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <!-- Navbar Style -->
@@ -62,6 +62,9 @@
 
         <!-- Font Awesome -->
         <script defer src="{{ asset('js/vendor/fontawesome-all.min.js') }}"></script>
+
+        <!-- Fred Carousel -->
+        <script type="application/javascript" src="{{ asset('js/vendor/jquery.carouFredSel.js') }}"></script>
 
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/_header.js') }}"></script>
