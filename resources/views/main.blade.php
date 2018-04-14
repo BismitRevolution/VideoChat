@@ -60,6 +60,9 @@
         <!-- <script type="application/javascript" src="{{ asset('js/vendor/what-input.js') }}"></script> -->
         <!-- <script type="application/javascript" src="{{ asset('js/vendor/foundation.min.js') }}"></script> -->
 
+        <!-- Font Awesome -->
+        <script defer src="{{ asset('js/vendor/fontawesome-all.min.js') }}"></script>
+
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/_header.js') }}"></script>
         <script type="application/javascript" src="{{ asset('js/_footer.js') }}"></script>
