@@ -69,6 +69,8 @@
         <!-- Customization -->
         <script type="application/javascript" src="{{ asset('js/_header.js') }}"></script>
         <script type="application/javascript" src="{{ asset('js/_footer.js') }}"></script>
+
+        <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
         @yield('extra-js')
 
         @include('layouts._footer')
